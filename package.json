@@ -1,5 +1,5 @@
 {
-  "name": "ts-scaffold",
+  "name": "{{ts-scaffold}}",
   "version": "1.0.0",
   "description": "Typescript project scaffold.",
   "main": "dist/index.js",
@@ -16,14 +16,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leiwenpeng0424/ts-scaffold.git"
+    "url": "git+https://github.com/leiwenpeng0424/{{ts-scaffold}}.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leiwenpeng0424/ts-scaffold/issues"
+    "url": "https://github.com/leiwenpeng0424/{{ts-scaffold}}/issues"
   },
-  "homepage": "https://github.com/leiwenpeng0424/ts-scaffold#readme",
+  "homepage": "https://github.com/leiwenpeng0424/{{ts-scaffold}}#readme",
   "devDependencies": {
     "@nfts/eslint-config": "^1.0.1",
     "@types/jest": "^27.4.1",

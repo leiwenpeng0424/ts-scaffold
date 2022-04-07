@@ -1,3 +1,3 @@
-# ts-scaffold
+# {{ts-scaffold}}
 
 Typescript project scaffold.
