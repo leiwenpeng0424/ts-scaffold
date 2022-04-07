@@ -1,0 +1,35 @@
+{
+  "name": "ts-scaffold",
+  "version": "1.0.0",
+  "description": "Typescript project scaffold.",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "directories": {
+    "test": "test",
+    "src": "src"
+  },
+  "scripts": {
+    "test": "jest --config jest.config.js",
+    "build": "tsc --project tsconfig.json",
+    "dev": "tsc --watch --project tsconfig.json",
+    "dts": "tsc --declaration --emitDeclarationOnly"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leiwenpeng0424/ts-scaffold.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leiwenpeng0424/ts-scaffold/issues"
+  },
+  "homepage": "https://github.com/leiwenpeng0424/ts-scaffold#readme",
+  "devDependencies": {
+    "@nfts/eslint-config": "^1.0.1",
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "prettier": "^2.6.2",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
