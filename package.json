@@ -19,16 +19,14 @@
     "url": "git+https://github.com/leiwenpeng0424/{{ts-scaffold}}.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/leiwenpeng0424/{{ts-scaffold}}/issues"
   },
   "homepage": "https://github.com/leiwenpeng0424/{{ts-scaffold}}#readme",
   "devDependencies": {
-    "@nfts/eslint-config": "^1.1.2",
+    "@nfts/eslint-config": "^1.1.3",
     "@types/jest": "^27.4.1",
-    "@typescript-eslint/eslint-plugin": "^5.18.0",
-    "@typescript-eslint/parser": "^5.18.0",
     "eslint": "^8.12.0",
     "jest": "^27.5.1",
     "prettier": "^2.6.2",
