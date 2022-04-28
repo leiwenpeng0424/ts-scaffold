@@ -28,3 +28,8 @@ web_componets/
 # build/release
 dist/
 build/
+
+# lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml

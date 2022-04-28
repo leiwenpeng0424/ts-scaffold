@@ -1,5 +1,8 @@
 {
   "compilerOptions": {
+    "target": "ES2017",
+    "module": "CommonJS",
+    // emit
     "outDir": "dist",
     "declarationDir": "dist",
     "declaration": true,

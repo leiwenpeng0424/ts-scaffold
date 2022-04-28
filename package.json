@@ -1,13 +1,13 @@
 {
   "name": "{{ts-scaffold}}",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Typescript project scaffold.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "directories": {
-    "test": "test",
     "src": "src"
   },
+  "packageManager": "pnpm",
   "scripts": {
     "test": "gmf build --test",
     "dev": "gmf build --watch",
@@ -17,7 +17,7 @@
     "type": "git",
     "url": "git+https://github.com/leiwenpeng0424/{{ts-scaffold}}.git"
   },
-  "author": "",
+  "author": "ray",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/leiwenpeng0424/{{ts-scaffold}}/issues"
@@ -25,6 +25,8 @@
   "homepage": "https://github.com/leiwenpeng0424/{{ts-scaffold}}#readme",
   "devDependencies": {
     "@nfts/eslint-config": "^1.1.3",
-    "@nfts/gmf": "latest"
+    "@nfts/gmf": "latest",
+    "@types/jest": "^27.4.1",
+    "jest": "^28.0.2"
   }
 }
